@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+body, html {
+margin: 0;
+padding: 0;
+}
+
+header {
+background-image: url(./fotos/minimalismo.jpg)   ;
+background-size: auto;
+background-repeat: no-repeat;
+background-position: center;
+grid-column-start: 1;
+grid-column-end: 3;
+
+}
+.contato5 {
+    text-align: end;
+   
+
+}
+.contato5 ul li {
+
+        list-style: none;
+        display: inline-block;
+        margin: 1px;   
+       
+        
+}
+.contato5 li {
+    padding: 2px;
+}
+.imgcontato7 {
+    width: 30px;
+    
+}
+
+.myButton {
+	box-shadow:inset 3px 14px 12px -2px #fff0f0;
+	background:linear-gradient(to bottom, #f5a4d9 5%, #ff61a0 100%);
+	background-color:#f5a4d9;
+	border-radius:42px;
+	border:1px solid #ff005e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:28px;
+	font-weight:bold;
+	font-style:italic;
+	padding:19px 76px;
+	text-decoration:none;
+	text-shadow:0px 6px 0px #fa87a4;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ff0066 5%, #f5a4d9 100%);
+	background-color:#ff0066;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+main {
+background: rgb(255, 180, 193);
+background-image: url(./fotos/bg2.jpg);
+background-size:cover;
+grid-column-start: 1;
+grid-column-end: 3;
+
+}
+
+.video h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #535353;
+}
+.video {
+    text-align: center;
+}
+
+footer {
+background: rgb(212, 212, 212);
+background-position: center;
+display: flex;
+justify-content: space-between;
+
+
+
+grid-column-start: 1;
+grid-column-end: 3;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 60vh auto 30vh;   
+}
+
+.logo img{ 
+    width: 120px;
+    margin-top: -120px;
+
+}
+
+
+.cabecalho {
+    text-align: center;
+   margin-top: -130px;
+   padding: 0;
+   
+}
+
+.cabecalho h1 {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 1000;
+    
+}
+
+.cabecalho h3 {
+    font-size: 30px;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+
+.cabecalho button {
+    font-size: 40px;
+    background: rgb(255, 182, 237);
+    box-shadow: 1px 1px 30px 1px rgb(0, 0, 0);
+    
+}
+
+.lista {
+  text-align: justify;
+  padding: 20px;
+  text-align: center;  
+ ;
+}
+
+.lista li {
+    margin: 0;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 300px;
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.numeros {
+    width: 50px;
+    margin: 0;
+}
+.titulodagaleria h2 {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 40px;
+    margin: 0;
+    color: #535353;
+}
+.titulodagaleria {
+    text-align: center;
+
+}
+
+#meio li {
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 1px 1px 30px 1px rgb(90, 90, 90);
+    margin: 3px;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#meio {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif ;
+
+    
+ 
+}
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.flex img {
+    width: 300px;
+    margin: 20px;
+    border: 2px solid rgb(124, 124, 124);
+    box-shadow: 1px 1px 30px 1px rgb(0, 0, 0);
+
+}
+
+#tt {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #535353;
+
+}
+.lista2 {
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-top: 50px;
+   justify-content: space-evenly;
+    
+    
+}
+
+.lista2 img {
+    width: 50%;
+    text-align: right;
+    
+}
+
+.lista2 ul, li, img {
+margin: 50px;
+}
+.selo {
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+}
+#garantia {
+    text-align: center;
+
+}
+
+#textodoselo {
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+#textodoselo h2 {
+    font-size: 35px;
+}
+
+#textodoselo button {
+    font-size: 30px;
+    background-color: rgb(226, 43, 144);
+    box-shadow: 2px 2px 70px 2px black;
+    margin-top: 20px;
+}
+.contato {
+    list-style: none;
+    margin: 0;
+    
+   
+}
+.direitos {
+    margin-top: 80px;
+    
+    margin-left: 130px;
+}
+.contato2 {
+    margin-bottom: 200px;
+}
+
+   
+.contato2 ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 3px;   
+    padding: -50px;
+   
+
+}
+
+.imgcontato {
+    width: 50px;
+}
